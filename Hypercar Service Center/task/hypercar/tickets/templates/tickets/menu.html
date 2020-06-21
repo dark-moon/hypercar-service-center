@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <menu>
+        {% for service, url in services.items %}
+            <li><a target="_blank" href='/{{ url }}'>{{ service }}</a></li>
+        {% endfor %}
+    </menu>
+</body>
+</html>

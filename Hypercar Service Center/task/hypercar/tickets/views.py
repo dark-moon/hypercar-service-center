@@ -1,8 +1,8 @@
 from django.views import View
 from django.shortcuts import render
 from django.shortcuts import redirect
-from .models import Ticket
-from .models import ClientsQueue
+from .business.clients import Ticket
+from .business.clients import ClientsQueue
 
 change_oil = 'Change oil'
 inflate_tires = 'Inflate tires'
